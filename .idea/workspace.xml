@@ -44,8 +44,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.WardrobeTest.executor": "Run",
     "Gradle.WardrobeTest.fit5ElementsUntilWardrobeIsFull.executor": "Run",
     "Gradle.WardrobeTest.fitElementsUntilWardrobeIsFull.executor": "Run",
+    "Gradle.WardrobeTest.fitOnlyOneCombination.executor": "Run",
+    "Gradle.WardrobeTest.fitTwoCombination.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -57,7 +60,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.WardrobeTest.fit5ElementsUntilWardrobeIsFull">
+  <component name="RunManager" selected="Gradle.WardrobeTest.fitTwoCombination">
     <configuration name="WardrobeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,11 +133,61 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="WardrobeTest.fitOnlyOneCombination" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;WardrobeTest.fitOnlyOneCombination&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WardrobeTest.fitTwoCombination" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;WardrobeTest.fitTwoCombination&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WardrobeTest.fitTwoCombination" />
+        <item itemvalue="Gradle.WardrobeTest" />
+        <item itemvalue="Gradle.WardrobeTest.fitOnlyOneCombination" />
         <item itemvalue="Gradle.WardrobeTest.fit5ElementsUntilWardrobeIsFull" />
         <item itemvalue="Gradle.WardrobeTest.fitElementsUntilWardrobeIsFull" />
-        <item itemvalue="Gradle.WardrobeTest" />
       </list>
     </recent_temporary>
   </component>
