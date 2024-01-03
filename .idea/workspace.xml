@@ -47,8 +47,8 @@
     "Gradle.WardrobeTest.executor": "Run",
     "Gradle.WardrobeTest.fit5ElementsUntilWardrobeIsFull.executor": "Run",
     "Gradle.WardrobeTest.fitElementsUntilWardrobeIsFull.executor": "Run",
-    "Gradle.WardrobeTest.fitOnlyOneCombination.executor": "Run",
-    "Gradle.WardrobeTest.fitTwoCombination.executor": "Run",
+    "Gradle.WardrobeTest.fitOnlyOneCombination.executor": "Debug",
+    "Gradle.WardrobeTest.fitTwoCombination.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -184,8 +184,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.WardrobeTest.fitTwoCombination" />
-        <item itemvalue="Gradle.WardrobeTest" />
         <item itemvalue="Gradle.WardrobeTest.fitOnlyOneCombination" />
+        <item itemvalue="Gradle.WardrobeTest" />
         <item itemvalue="Gradle.WardrobeTest.fit5ElementsUntilWardrobeIsFull" />
         <item itemvalue="Gradle.WardrobeTest.fitElementsUntilWardrobeIsFull" />
       </list>
@@ -219,6 +219,32 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Wardrobe.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Wardrobe.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Wardrobe.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Wardrobe.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
