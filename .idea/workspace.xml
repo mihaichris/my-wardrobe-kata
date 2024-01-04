@@ -46,9 +46,11 @@
   "keyToString": {
     "Gradle.WardrobeTest.executor": "Run",
     "Gradle.WardrobeTest.fit5ElementsUntilWardrobeIsFull.executor": "Run",
+    "Gradle.WardrobeTest.fitAllCombinations.executor": "Debug",
     "Gradle.WardrobeTest.fitElementsUntilWardrobeIsFull.executor": "Run",
-    "Gradle.WardrobeTest.fitOnlyOneCombination.executor": "Debug",
-    "Gradle.WardrobeTest.fitTwoCombination.executor": "Debug",
+    "Gradle.WardrobeTest.fitOnlyOneCombination.executor": "Run",
+    "Gradle.WardrobeTest.fitThreeCombination.executor": "Run",
+    "Gradle.WardrobeTest.fitTwoCombination.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -60,7 +62,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.WardrobeTest.fitTwoCombination">
+  <component name="RunManager" selected="Gradle.WardrobeTest.fitAllCombinations">
     <configuration name="WardrobeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -85,7 +87,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="WardrobeTest.fit5ElementsUntilWardrobeIsFull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WardrobeTest.fitAllCombinations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -98,31 +100,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;WardrobeTest.fit5ElementsUntilWardrobeIsFull&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="WardrobeTest.fitElementsUntilWardrobeIsFull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;WardrobeTest.fitElementsUntilWardrobeIsFull&quot;" />
+            <option value="&quot;WardrobeTest.fitAllCombinations&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,6 +125,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;WardrobeTest.fitOnlyOneCombination&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WardrobeTest.fitThreeCombination" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;WardrobeTest.fitThreeCombination&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WardrobeTest.fitAllCombinations" />
+        <item itemvalue="Gradle.WardrobeTest" />
+        <item itemvalue="Gradle.WardrobeTest.fitThreeCombination" />
         <item itemvalue="Gradle.WardrobeTest.fitTwoCombination" />
         <item itemvalue="Gradle.WardrobeTest.fitOnlyOneCombination" />
-        <item itemvalue="Gradle.WardrobeTest" />
-        <item itemvalue="Gradle.WardrobeTest.fit5ElementsUntilWardrobeIsFull" />
-        <item itemvalue="Gradle.WardrobeTest.fitElementsUntilWardrobeIsFull" />
       </list>
     </recent_temporary>
   </component>
@@ -224,27 +226,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Wardrobe.kt</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Wardrobe.kt</url>
-          <line>29</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Wardrobe.kt</url>
-          <line>20</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Wardrobe.kt</url>
-          <line>18</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/test/kotlin/WardrobeTest.kt</url>
+          <line>64</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="((java.util.ArrayList)combinations).get(4)" custom="java.util.ArrayList" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
