@@ -62,7 +62,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.WardrobeTest.fitAllCombinations">
+  <component name="RunManager" selected="Gradle.WardrobeTest">
     <configuration name="WardrobeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -185,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.WardrobeTest.fitAllCombinations" />
         <item itemvalue="Gradle.WardrobeTest" />
+        <item itemvalue="Gradle.WardrobeTest.fitAllCombinations" />
         <item itemvalue="Gradle.WardrobeTest.fitThreeCombination" />
         <item itemvalue="Gradle.WardrobeTest.fitTwoCombination" />
         <item itemvalue="Gradle.WardrobeTest.fitOnlyOneCombination" />
@@ -223,15 +223,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/WardrobeTest.kt</url>
-          <line>64</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="GradleRunConfiguration">
         <watch expression="((java.util.ArrayList)combinations).get(4)" custom="java.util.ArrayList" />
