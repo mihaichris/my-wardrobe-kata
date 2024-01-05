@@ -1,6 +1,6 @@
 class Wardrobe(private var elements: MutableList<Element>) {
     companion object {
-        const val wallLength = 250
+        const val WALL_LENGTH = 250
     }
 
     fun addElement(element: Element) {
@@ -8,6 +8,6 @@ class Wardrobe(private var elements: MutableList<Element>) {
     }
 
     fun isFull(): Boolean {
-        return elements.sumOf { it.getSize() } == wallLength;
+        return elements.sumOf { it.getSize() } == WALL_LENGTH;
     }
 }
