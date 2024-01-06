@@ -1,4 +1,6 @@
 class Wardrobe(private var elements: MutableList<Element>) {
+    val availableSizes: List<Int> = listOf(50, 75, 100)
+
     companion object {
         const val WALL_LENGTH = 250
     }
