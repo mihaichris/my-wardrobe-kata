@@ -9,7 +9,12 @@ class WardrobeTest {
     }
 
     @Test
-    fun wardrobe() {
+    fun fit5ElementsUntilWardrobeIsFull() {
+        while (!wardrobe.isFull()) {
+            wardrobe.addElement(Element(50))
+        }
+        assertEquals(5, wardrobe.getElements().size)
+    }
 
     }
 
