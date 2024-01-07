@@ -9,6 +9,10 @@ class Wardrobe(private var elements: MutableList<Element>) {
         elements.add(element)
     }
 
+    fun getElements(): List<Element> {
+        return elements.toList()
+    }
+
     fun isFull(): Boolean {
         return elements.sumOf { it.getSize() } == WALL_LENGTH;
     }
