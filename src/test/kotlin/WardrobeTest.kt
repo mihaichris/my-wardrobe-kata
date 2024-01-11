@@ -44,4 +44,17 @@ class WardrobeTest {
         )
         assertEquals(expectedCombinations, combinations)
     }
+
+    @Test
+    fun fitAllCombination() {
+        val combinations = wardrobe.findWardrobeCombinations(wardrobe.availableSizes)
+        val expectedCombinations = listOf(
+            listOf(Element(75), Element(75), Element(100)),
+            listOf(Element(50), Element(100), Element(100)),
+            listOf(Element(50), Element(50), Element(75), Element(75)),
+            listOf(Element(50), Element(50), Element(50), Element(100)),
+            listOf(Element(50), Element(50), Element(50), Element(50), Element(50))
+        )
+        assertEquals(expectedCombinations, combinations)
+    }
 }
